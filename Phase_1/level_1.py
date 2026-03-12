@@ -1,3 +1,8 @@
+"""
+Phase 1 - Conditional Thinking
+Level 1 Problems
+"""
+
 # 1. Take a number and print whether it’s positive, negative, or zero.
 
 # num = int(input("Enter a number: "))
@@ -10,6 +15,7 @@
 #     print("Negative")
 
 # 2. Check if a number is even or odd.
+
 # num = int(input("Enter a number: "))
 # if num % 2 == 0:
 #     print("Even")
@@ -30,7 +36,6 @@
 #     print("Divisible by 3 and 5")
 # else:
 #     print("Not Divisible by 5")
-
 
 # 5. Check if a given year is a leap year.
 
@@ -71,13 +76,55 @@
 
 # 9. Take a character and check if it’s a vowel or consonant.
 
-a = input("Enter an alphabet: ").upper()
+# a = input("Enter an alphabet: ").upper()
+# if a not in ['A','E', 'I', 'O', 'U']:
+#     # print(a, "is a vowel")
+#     print(a,"is a consonant")
+# else: 
+#     # print(a,"is a consonant")
+#     print(a, "is a vowel")
 
-if a not in ['A','E', 'I', 'O', 'U']:
-    # print(a, "is a vowel")
-    print(a,"is a consonant")
-else: 
-    # print(a,"is a consonant")
-    print(a, "is a vowel")
-# 10. Take a character and check whether it’s uppercase, lowercase, a digit, or a special
-# character.
+#OR
+
+# a = input("Enter an alphabet: ").upper()
+# if a in "AEIOU":
+#     print(f"{a} is a vowel.")
+# else:
+#     print(f"{a} is a consonant.")
+
+# OR
+
+# a = input("Enter an alphabet: ").upper()
+# if len(a) == 1 and a.isalpha():
+#     if a in "AEIOU":
+#         print("Vowel")
+#     else:
+#         print("Consonant")
+# else:
+#     print("Invalid input")
+
+# 10. Take a character and check whether it’s uppercase, lowercase, a digit, or a special character.
+
+# char = input("Enter your character: ")
+
+# if 'A' <= char <= 'Z':
+#     print(f"{char} is an Upper-Case letter.")
+# elif 'a' <= char <= 'z':
+#     print(f"{char} is an Lower-Case letter.")
+# elif 0 <= char <= 9:
+#     print(f"{char} is a digit")
+# else:
+#     print(f"{char} is a special character")
+
+#OR
+
+# ch = input("Enter a character: ")
+
+# if ch.isupper():
+#     print("Uppercase letter")
+# elif ch.islower():
+#     print("Lowercase letter")
+# elif ch.isdigit():
+#     print("Digit")
+# else:
+#     print("Special character")
