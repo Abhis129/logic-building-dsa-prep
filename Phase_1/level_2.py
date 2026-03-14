@@ -7,33 +7,46 @@ Level 2 Problems
 
 
 # 1. Take three sides and check if they form a valid triangle.
-# side1 = int(input("Enter 1st side: "))
-# side2 = int(input("Enter 2nd side: "))
-# side3 = int(input("Enter 3rd side: "))
+side1 = int(input("Enter 1st side: "))
+side2 = int(input("Enter 2nd side: "))
+side3 = int(input("Enter 3rd side: "))
 
-# if (side1 + side2 > side3) and (side2 + side3 > side1) and (side1 + side3 > side2):
-#     print("Valid Triangle")
-# else:
-#     print("Not a Valid Triangle")
+if (side1 + side2 > side3) and (side2 + side3 > side1) and (side1 + side3 > side2):
+    print("Valid Triangle")
+else:
+    print("Not a Valid Triangle")
 
 
 # 2. If the sides form a valid triangle, determine whether it is equilateral, isosceles, or
 # scalene.
 
-# side1 = int(input("Enter 1st side: "))
-# side2 = int(input("Enter 2nd side: "))
-# side3 = int(input("Enter 3rd side: "))
+side1 = int(input("Enter 1st side: "))
+side2 = int(input("Enter 2nd side: "))
+side3 = int(input("Enter 3rd side: "))
 
-# if side1 == side2 == side3:
-#     print("This is an Equilateral Triangle.")
+if side1 == side2 == side3:
+    print("This is an Equilateral Triangle.")
 
-# elif side1 == side2 or side2 == side3 or side1 == side3:
-#     print("This is a Isosceles Triangle.")
+elif side1 == side2 or side2 == side3 or side1 == side3:
+    print("This is a Isosceles Triangle.")
 
-# else:
-#     print("This is an Scalene Triangle.")
+else:
+    print("This is an Scalene Triangle.")
 
 # 3. Take marks (0–100) and print the corresponding grade (A/B/C/D/F).
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif 70 <= marks <= 89:
+    print("Grade B")
+elif 50 <= marks <= 69:
+    print("Grade C")
+elif 40 <= marks <= 49:
+    print("Grade D")
+else:
+    print("Grade F")
 
 
 # 4. Check if one of two given numbers is a multiple of the other.
@@ -75,8 +88,10 @@ if num1 % 2 == 0 and num2 % 2 == 0:
     print("Both numbers are even")
 elif num1 % 2 != 0 and num2 % 2 != 0:
     print("Both numbers are odd")
+elif num1 % 2 == 0:
+    print(num1, "is an even number", num2, "is an odd number")
 else:
-    print("One is even and one is odd")
+    print(num2, "is an even number", num1, "is an odd number")
 
 # 8. Take an alphabet character and check if it lies between ‘a’ and ‘m’ or ‘n’ and ‘z’.
 letter = input("Enter an alphabet: ").lower()
