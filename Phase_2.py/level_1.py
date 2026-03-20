@@ -1,5 +1,5 @@
 """
-Phase 2 – Looping & Patterns (Iteration & Flow)
+Phase 2 - Looping & Patterns (Iteration & Flow)
 Level 1: Basic Looping (Introductory)
 """
 
