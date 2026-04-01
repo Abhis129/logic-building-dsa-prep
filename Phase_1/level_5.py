@@ -52,7 +52,8 @@ else:
     print("Invalid date")
 
 
-# 4. Smaller angle between clock hands
+# 4. Take time (hours and minutes) and print the smaller angle between the hour and
+# minute hands.
 
 hour = int(input("\nEnter hour: "))
 minute = int(input("Enter minute: "))
@@ -66,7 +67,7 @@ smaller_angle = min(angle, 360 - angle)
 print("Smaller angle:", smaller_angle)
 
 
-# 5. Check Arithmetic Progression
+# 5. 5. Take three numbers and check if they are in arithmetic progression.
 
 a = int(input("\nEnter first number: "))
 b = int(input("Enter second number: "))
@@ -78,7 +79,7 @@ else:
     print("Not in Arithmetic Progression")
 
 
-# 6. Check Geometric Progression
+# 6. Take three numbers and check if they are in geometric progression.
 
 a = int(input("\nEnter first number: "))
 b = int(input("Enter second number: "))
@@ -90,7 +91,7 @@ else:
     print("Not in Geometric Progression")
 
 
-# 7. Check 3-digit rule (first + last = middle)
+# 7. Take a 3-digit number and check if the sum of the first and last digit equals the middle digit.
 
 num = int(input("\nEnter a 3-digit number: "))
 
@@ -104,7 +105,7 @@ else:
     print("Condition not satisfied")
 
 
-# 8. Sum of digits greater than product
+# 8. Take an integer (1–9999) and check if the sum of its digits is greater than the product of its digits.
 
 num = int(input("\nEnter a number (1-9999): "))
 
@@ -124,7 +125,8 @@ else:
     print("Product is greater or equal")
 
 
-# 9. Compare two dates
+# 9. Take two dates (day and month) and determine which one comes first in the
+# calendar.
 
 day1 = int(input("\nEnter first date day: "))
 month1 = int(input("Enter first date month: "))
@@ -140,7 +142,7 @@ else:
     print("Second date comes earlier")
 
 
-# 10. Find century from year
+# 10. Take a year and print the corresponding century (e.g., “19th century”, “20th century”)
 
 year = int(input("\nEnter year: "))
 

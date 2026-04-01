@@ -110,6 +110,18 @@ elif digit == 9:
 else:
     print("Invalid digit")
 
+# Pytthonic way
+
+# words = ["Zero", "One", "Two", "Three", "Four",
+#          "Five", "Six", "Seven", "Eight", "Nine"]
+
+# num = int(input("Enter a digit (0-9): "))
+
+# if 0 <= num <= 9:
+#     print(words[num])
+# else:
+#     print("Invalid input")
+
 
 # 8. Take a weekday number (1–7) and determine if it is a weekday or weekend.
 
